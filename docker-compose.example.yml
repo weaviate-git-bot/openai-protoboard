@@ -43,7 +43,7 @@ services:
       - 3092:3092
 
   weaviate:
-    image: semitechnologies/weaviate:1.18.3
+    image: cr.weaviate.io/semitechnologies/weaviate:1.18.3
     ports:
     - 3093:8080
     restart: on-failure:0
